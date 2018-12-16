@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* header
+*/
+.element0{
+ background-color: green;
+ width: 550px;
+ height: 150px;
+}
+
+/*
+* main & sidebar (wrapper)
+*/
+.element1{
+ background-color: yellow;
+ width: 400px;
+ height: 150px;
+ float: left;
+}
+.element2{
+ background-color: blue;
+ width: 150px;
+ height: 150px;
+ float: left;
+}
+
+/*
+* body
+*/
+.element3{
+ background-color: red;
+ width: 550px;
+ height: 150px;
+ clear: both;
+ margin-top: 50px;
+}
+
+.clearfix::after {
+    content: 'ここがclearfix::afterの箇所。';
+    display: block;
+    clear: both;
+}
